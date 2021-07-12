@@ -1,7 +1,7 @@
 <h1>Books</h1>
 
 <table>
-<thead>
+  <thead>
     <tr>
     <th>Title</th>
     <th>Body</th>
@@ -17,8 +17,8 @@
     <td><%= link_to :"edit", edit_book_path(book) %></td>
     <td><%= link_to "destroy", book_path(book), method: :delete, "data-confirm" => "Are you sure?" %></td>
 
- <% end %>
-</tbody>
+   <% end %>
+  </tbody>
 </table>
 
 <h2>NEW book</h2>
@@ -29,9 +29,9 @@
     <ul>
     <% @book.errors.full_messages.each do |msg| %>
     <li><%= msg %></li>
-    <% end %>
+<% end %>
     </ul>
-    <% end %>
+<% end %>
 
 <h3>Title</h3>
 <%= f.text_field :title %>
