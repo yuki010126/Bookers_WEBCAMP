@@ -1,24 +1,20 @@
-# README
+# Bookers
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 概要
+おすすめの本や読了後の感想を呟くアプリケーション
 
-Things you may want to cover:
+## 環境
+・Ruby2.6.3</br>
+・Rails5.2.6</br>
+・HTML5</br>
+・CSS
 
-* Ruby version
+## Gem
+・devise</br>
+・bootstrap5</br>
+・font-awesome</br>
+・refile/refile-mini_magic</br>
 
-* System dependencies
 
-* Configuration
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
